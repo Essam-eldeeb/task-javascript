@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>favorite movies</h1>
+      <button id="addmovie" class="addmovie btn-danger">ADD MOVIE</button>
+    </div>
+    <div class="database" id="database">Your personal movie database!</div>
+
+    <div class="form none" id="formdata">
+      <label for="">Movie Title </label>
+      <input type="text" name="" id="" />
+      <br />
+      <label for="">Image URL </label>
+      <input type="text" name="" id="" />
+      <br />
+      <label for="">Your Rating </label>
+      <input type="number" name="" id="" />
+      <div>
+        <button class="cancel" id="cancel">cancel</button>
+        <button class="Add" id="add">ADD</button>
+      </div>
+    </div>
+    <div  id="carddata"  class="carddata row">
+        <!-- <button class=" finelbutton  btn btn-danger " id="finel">delete</button> -->
+
+    </div>
+
+    <script src="./movie.js"></script>
+  </body>
+</html>

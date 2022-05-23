@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0,1px);
+}
+
+
+.navbar{
+    background-color: blue;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1{
+    margin-left: 20px;
+}
+ .addmovie{
+    margin-right: 20px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.database{
+    /* border: 1px solid black; */
+    padding:50px;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px black;
+}
+.form {
+    padding:70px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px black;
+
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+}
+label{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.cancel, .Add {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+border-radius: 20px;
+cursor: pointer;
+}
+.Add{
+    background-color: blue;
+    color: white;
+
+}
+.none{
+
+    display: none;
+}
+
+.carddata{
+    /* background-color: black; */
+    /* color: white; */
+    /* height: 300px; */
+    /* margin-top: 50px; */
+    /* width: 25%; */
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+    margin: 20px !important;
+    margin-left: 10px;
+
+    
+    
+}
+.deletebutton{
+    position: relative;
+    bottom: -247px;
+    width: 100%;
+}
+
+.deletcard{
+    width: 100px;
+    height: 40px;
+}
+.finelbutton{
+    display: none !important;
+}
+.buttonremove{
+    width: 100px;
+    height: 60px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+.deletmain{
+    font-size: 32px;
+    /* padding: 20px; */
+    margin-left: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px!important;
+}
